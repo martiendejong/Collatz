@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Collatz
 {
-    public class CollatzSequence
+    public class CollatzPrimeResult
     {
-        public CollatzFullSteps Steps;
-
-        public List<CollatzSequence> Children = new List<CollatzSequence>();
+        public ulong Result;
+        public CollatzPlusMinus PlusMinus;
+        public bool IsFirstRowSingle;
     }
 }

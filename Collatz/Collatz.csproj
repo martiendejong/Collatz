@@ -43,9 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CollatzCalculator.cs" />
+    <Compile Include="CollatzPlusMinus.cs" />
+    <Compile Include="CollatzPrimeInfo.cs" />
+    <Compile Include="CollatzPrimeResult.cs" />
     <Compile Include="CollatzResult.cs" />
-    <Compile Include="CollatzSequence.cs" />
-    <Compile Include="CollatzFullSteps.cs" />
+    <Compile Include="CollatzSteps.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
